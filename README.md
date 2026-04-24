@@ -19,7 +19,7 @@ The system is designed for **agricultural automation**, such as internode locali
 * 🎯 Custom-trained YOLOv8 model for **internode detection**
 * 📏 Real-time estimation of:
 
-  * Depth (meters)
+  * Depth
   * Width & Height (centimeters)
 * 🧠 Robust disparity computation using **SGBM + WLS filtering**
 * ⚡ Real-time performance (20–30 FPS with GPU)
@@ -104,7 +104,7 @@ For each detected internode:
 * Measurement accuracy depends heavily on:
 
   * Camera calibration quality
-  * Baseline accuracy (in meters)
+  * Baseline accuracy 
 * Ensure calibration parameters in `stereo_calibration.npz` are correct
 
 ---
