@@ -52,9 +52,6 @@ yolo_project/
 │   ├── data.yaml                        # Dataset configuration
 │   ├── best.pt                          # Trained YOLOv8 weights
 │   ├── stereo_calibration.npz          # Stereo calibration parameters
-│   ├── train/                           # Training images & labels
-│   ├── valid/                           # Validation set
-│   └── test/                            # Test set
 │
 └── README.md
 ```
